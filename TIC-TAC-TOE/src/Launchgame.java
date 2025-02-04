@@ -191,6 +191,7 @@ public class Launchgame {
 	{
 		TicTacToe t=new TicTacToe();
 		HumanPlayer p1=new HumanPlayer("Deepthi",'X');
+		
 		//HumanPlayer p2=new HumanPlayer("Deva",'O');
 		AIPlayer p2=new AIPlayer("AI",'O');
 		
@@ -211,7 +212,7 @@ public class Launchgame {
 			}
 			else if(TicTacToe.CheckDraw())
 			{
-				System.out.println("Game is adraw");
+				System.out.println("Game is draw");
 				break;
 			}
 			else
