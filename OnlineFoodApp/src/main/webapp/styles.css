@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.restaurant-list {
+    display: flex; /* Change to grid if using the grid method */
+    flex-wrap: wrap; /* If using flexbox */
+    justify-content: center; /* Center the items */
+    margin: 0 -15px; /* Optional: to handle margins */
+}
+
+.restaurant-card {
+    flex: 1 1 calc(33.333% - 30px); /* For flexbox */
+    margin: 15px; /* Space between cards */
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.restaurant-card h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.restaurant-card p {
+    margin: 5px 0;
+}
+
+.delivery-time {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.action-links {
+    margin-top: 10px;
+}
+
+.action-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.action-links a:hover {
+    text-decoration: underline;
+}
